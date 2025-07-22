@@ -1,1 +1,1 @@
-# AF-based_distograms
+# af-distogram-flexibility
