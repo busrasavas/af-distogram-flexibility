@@ -1,3 +1,6 @@
+<img src="logo.png" alt="AF-distogram Logo" width="400"/>
+
+
 Here we explore **flexibility signals** embedded in **AlphaFold distograms**, with a special focus on **cryo-EM** interpretation.  
 
 This repository supports the manuscript:
