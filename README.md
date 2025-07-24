@@ -19,8 +19,8 @@ AlphaFold’s distograms encode inter-residue distance distributions that often 
 ## 📂 Folder Structure
 ```
 data/
-├── distograms/              # Generated distograms per tool and target
-├── pdbs/                    # Structural predictions and calculated distance measurements
+├── distograms/              # Generated distograms per tool and targets, access via Zenodo.
+├── pdbs/                    # Structural predictions and calculated distance measurements, access via Zenodo.
 ├── msas/                    # MSA files (.a3m) used in distogram generation
 ├── md/                      # Molecular dynamics based reference distances
 
