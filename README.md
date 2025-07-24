@@ -12,7 +12,7 @@ Authors: Büşra Savaş, Ayşe Berçin Barlas, Ezgi Karaca
 
 ## 🔬 Research Background
 
-AlphaFold’s distograms encode inter-residue distance distributions that often contain conformational information not visible in final coordinate predictions. In this project, we investigate how these distograms capture hinge-driven conformational flexibility using the AK2:AIFM1 complex as a test case. We compare distogram outputs across AlphaFold versions (AF2, AF2.3, AF3), different sampling strategies (MinnieFold, AF_cluster, and AFsample2), and assess their correspondence with molecular dynamics simulations.
+AlphaFold’s distograms encode inter-residue distance distributions that often contain conformational information not visible in final coordinate predictions. In this project, we investigate how these distograms capture hinge-driven conformational flexibility using the AK2:AIFM1 complex as a test case. We compare distogram outputs across AlphaFold versions (AF2.0 (ptm), AF2.1, AF2.2, AF2.3, AF3), different sampling strategies (MinnieFold, AF_cluster, and AFsample2), and assess their correspondence with molecular dynamics simulations.
 
 ---
 
