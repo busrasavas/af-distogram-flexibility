@@ -4,9 +4,8 @@
 Here we explore **flexibility signals** embedded in **AlphaFold distograms**, with a special focus on **cryo-EM** interpretation.  
 
 This repository supports the manuscript:
-**"Exploring the Potential of AlphaFold Distograms for Flexibility Assignment in Cryo-EM Structures"**  
+[**"Exploring the Potential of AlphaFold Distograms for Flexibility Assignment in Cryo-EM Structures"**](https://www.biorxiv.org/content/10.1101/2025.07.25.666757v1)  
 Authors: Büşra Savaş, Ayşe Berçin Barlas, Ezgi Karaca  
-[Publication link – coming soon]
 
 ---
 
@@ -19,8 +18,8 @@ AlphaFold’s distograms encode inter-residue distance distributions that often 
 ## 📂 Folder Structure
 ```
 data/
-├── distograms/              # Generated distograms per tool and targets, access via Zenodo.
-├── pdbs/                    # Structural predictions and calculated distance measurements, access via Zenodo.
+├── distograms*/              # Generated distograms per tool and targets
+├── pdbs*/                    # Structural predictions and calculated distance measurements, access via Zenodo.
 ├── msas/                    # MSA files (.a3m) used in distogram generation
 ├── md/                      # Molecular dynamics based reference distances
 
@@ -28,6 +27,9 @@ scripts/
 ├── dist-calc-two-res.py     # For extracting pairwise distance over PDB files
 └── distogram-figures.ipynb  # Plotting scripts for the figures in the manuscript
 ```
+*access mentioned files via [Zenodo.](https://zenodo.org/records/16364512)
+
+
 **Visualize hinge motion distograms**
 
 Use the provided Jupyter notebook to reproduce key figures in the manuscript, such as distogram plotting:
