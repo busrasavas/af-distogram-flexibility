@@ -29,7 +29,7 @@ scripts/
 ├── distogram-figures-supp-figures.ipynb      # Plotting scripts for manuscript supplementary figures
 └── column_masking.py                         # Generates perturbed MSAs from AFsample2 .pkl outputs and the original MSA
 ```
-* Large files omitted from the repo; available via [Zenodo.](https://zenodo.org/records/16364512).
+\* Large files omitted from the repo; available via [Zenodo.](https://zenodo.org/records/16364512)
   
 **Visualize hinge motion distograms**
 
@@ -47,6 +47,12 @@ plot_all_distograms_in_directory(
 Extract pairwise distance distributions for any residue pair (e.g., 230–233):
 ```
 python dist-calc-two-res.py --input_pdb /path/to/pdb --residue1 230 --residue2 233
+```
+
+**Generate Perturbed MSAs for AF3sample2 pipeline**
+Create perturbed MSAs using AFsample2 output pickle files:
+```
+python column_masking.py --msa_file path/to/input.msa.a3m --pkl_file path/to/afsample2_output.pkl
 ```
 
 **🧠 Citing This Work**
