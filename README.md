@@ -50,6 +50,7 @@ python dist-calc-two-res.py --input_pdb /path/to/pdb --residue1 230 --residue2 2
 ```
 
 **Generate Perturbed MSAs for AF3sample2 pipeline**
+
 Create perturbed MSAs using AFsample2 output pickle files:
 ```
 python column_masking.py --msa_file path/to/input.msa.a3m --pkl_file path/to/afsample2_output.pkl
