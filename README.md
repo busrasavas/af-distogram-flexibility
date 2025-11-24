@@ -1,7 +1,7 @@
 <img src="logo.png" alt="AF-distogram Logo" width="600"/>
 
 
-Here we explore **flexibility signals** embedded in **AlphaFold distograms**, with a special focus on **cryo-EM** interpretation.  
+Here we explore **flexibility signals** embedded in **AlphaFold distograms**, with a special focus on **predicting binding-induced hinge motion** interpretation.  
 
 This repository supports the manuscript:
 [**"Exploring the Potential of AlphaFold Distograms for Predicting Binding-induced Hinge Motions"**](https://www.biorxiv.org/content/10.1101/2025.07.25.666757v3)  
