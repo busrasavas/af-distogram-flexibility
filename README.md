@@ -17,7 +17,7 @@ AlphaFold’s distograms encode inter-residue distance distributions that often 
 
 ## 📂 Folder Structure
 ```
-data*/                                        * Large files omitted from the repo; available via[Zenodo.](https://zenodo.org/records/16364512).
+data*/                                        
 ├── distograms/                               # Generated distograms per tool and targets
 ├── pdbs/                                     # Structural predictions and calculated distance measurements, access via Zenodo.
 ├── msas/                                     # MSA files (.a3m) used in distogram generation
@@ -29,7 +29,8 @@ scripts/
 ├── distogram-figures-supp-figures.ipynb      # Plotting scripts for manuscript supplementary figures
 └── column_masking.py                         # Generates perturbed MSAs from AFsample2 .pkl outputs and the original MSA
 ```
-
+* Large files omitted from the repo; available via[Zenodo.](https://zenodo.org/records/16364512).
+  
 **Visualize hinge motion distograms**
 
 Use the provided Jupyter notebook to reproduce key figures in the manuscript, such as distogram plotting:
