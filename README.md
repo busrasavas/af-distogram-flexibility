@@ -29,7 +29,7 @@ scripts/
 ├── distogram-figures-supp-figures.ipynb      # Plotting scripts for manuscript supplementary figures
 └── column_masking.py                         # Generates perturbed MSAs from AFsample2 .pkl outputs and the original MSA
 ```
-* Large files omitted from the repo; available via[Zenodo.](https://zenodo.org/records/16364512).
+* Large files omitted from the repo; available via [Zenodo.](https://zenodo.org/records/16364512).
   
 **Visualize hinge motion distograms**
 
