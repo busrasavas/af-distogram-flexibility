@@ -18,8 +18,8 @@ AlphaFold’s distograms encode inter-residue distance distributions that often 
 ## 📂 Folder Structure
 ```
 data*/                                        
-├── distograms/                               # Generated pairwise distograms for our case set, including AK2, IL1R1, MIA40, and EIF2B3.
-├── pdb-distances/                            # Calculated pairwise distance measurements for our case set.
+├── distograms**/                               # Generated pairwise distograms for our case set, including AK2, IL1R1, MIA40, and EIF2B3.
+├── pdb-distances**/                            # Calculated pairwise distance measurements for our case set.
 ├── msas/                                     # MSA files (.a3m) used in distogram generation
 ├── md/                                       # Molecular dynamics based reference distances
 
@@ -29,6 +29,7 @@ scripts/
 └── column_masking.py                         # Generates perturbed MSAs from AFsample2 .pkl outputs and the original MSA
 ```
 \* PDB files omitted from the repo; available via [Zenodo.](https://zenodo.org/records/16364512)
+\** Each csv file comes with a corresponding txt file providing a description of the run parameters for each data.
   
 **Calculate custom pairwise distances**
 
