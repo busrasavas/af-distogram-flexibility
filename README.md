@@ -18,8 +18,8 @@ AlphaFold’s distograms encode inter-residue distance distributions that often 
 ## 📂 Folder Structure
 ```
 data*/                                        
-├── distograms**/                               # Generated pairwise distograms for our case set, including AK2, IL1R1, MIA40, and EIF2B3.
-├── pdb-distances**/                            # Calculated pairwise distance measurements for our case set.
+├── distograms**/                             # Generated pairwise distograms for our case set, including AK2, IL1R1, MIA40, and EIF2B3.
+├── pdb-distances**/                          # Calculated pairwise distance measurements.
 ├── msas/                                     # MSA files (.a3m) used in distogram generation
 ├── md/                                       # Molecular dynamics based reference distances
 
