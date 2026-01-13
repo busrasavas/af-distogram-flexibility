@@ -28,7 +28,7 @@ scripts/
 ├── extract_distogram_pair.py                 # Extracts pairwise distograms from .pkl, .pickle or .npz files
 └── column_masking.py                         # Generates perturbed MSAs from AFsample2 .pkl outputs and the original MSA
 ```
-\* PDB files omitted from the repo; available via [Zenodo.](https://zenodo.org/records/16364512)
+\* PDB files omitted from the repo; available via [Zenodo.](https://zenodo.org/records/17638774)
 
 \** Each csv file comes with a corresponding txt file providing a description of the run parameters for each data.
   
