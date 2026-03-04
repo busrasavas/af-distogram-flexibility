@@ -4,7 +4,7 @@
 Here we explore **flexibility signals** embedded in **AlphaFold distograms**, with a special focus on **predicting binding-induced hinge motion** interpretation.  
 
 This repository supports the manuscript:
-[**"Exploring the Potential of AlphaFold Distograms for Predicting Binding-induced Hinge Motions"**](https://www.biorxiv.org/content/10.1101/2025.07.25.666757v3)  
+[**"Exploring the Potential of AlphaFold Distograms for Predicting Binding-induced Hinge Motions"**](https://doi.org/10.1002/1873-3468.70297)  
 Authors: Büşra Savaş, Ayşe Berçin Barlas, Ezgi Karaca  
 
 ---
